@@ -1,0 +1,154 @@
+/*============RESET========================*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    
+    
+    
+    
+
+}
+
+
+/*===========================================
+===========FORMATAÇÃO DO MENU SUPERIOR=======*/
+
+.container-xxl {
+    height: 100%;
+    background: no-repeat center/cover url("https://cdn.ome.lt/ao-nzryFZHZuwMFrgzJMyFDkuaM=/1200x630/smart/extras/conteudos/God_of_War_-_capa_MlwJLcd.png");
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.menu {
+    background-color: black;
+    display: flex;
+    border-bottom: groove;
+    border-radius: 0 0 0 60px;
+    padding-left: 24px;
+    
+    
+    
+    
+    
+    
+}
+.menu > ul {
+    display: flex;
+    gap: 20px;
+    margin-right: 22px;
+    align-items: center;
+    
+    
+}
+.menu > ul > li a {
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+
+    
+    
+}
+.menu > ul > li a:hover {
+    color: rgb(211, 7, 7);
+    border-radius: 5px;
+    padding: 3px;
+}
+
+
+.header > a > img {
+    height: 50px;
+    width: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+    
+
+
+}
+/*=============================================*/
+
+.container-xxl > h1 {
+    padding: .2em;
+    text-align: center;
+    font-size: 72px;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border: tomato;
+    border-style: groove;
+    border-radius: 0 100px 0 100px;
+    
+}
+
+
+
+
+#listarFilmes img {
+    max-height: 150px;
+    width: auto;
+    margin: 5px;
+    margin-top: 30px;
+    margin-left:  10px;
+    margin-right: 10px;
+    border-radius: 20px;
+    
+    
+    
+}
+#listarFilmes {
+    background-color: #7788;
+    border-radius: 30px;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding: 1em;
+    border-style: groove; 
+}
+
+
+
+
+
+section > .inserir {
+    margin: 2em;
+    
+}
+.inserir > input {
+    border-radius: 8em;
+    padding: .2em;
+    margin-top: .5em;
+
+}
+.inserir > P {
+    font-family: Arial;
+    font-size: 2em;
+    color: rgb(235, 6, 6);
+
+}
+.inserir > .btn {
+    padding: .5em;
+    border-radius: 10px;
+    background-color: transparent;
+    margin-top: .2em;
+}
+.inserir > .btn:hover{
+    color: rgb(235, 6, 6);
+}
+
+/*========IMPLEMENTAR A PARTE RESPONSIVA======================*/
+
+@media (){
+    
+}
